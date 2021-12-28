@@ -1,0 +1,148 @@
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+  width: 100%;
+}
+
+html, body, .all-conts, .cont-outer {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+.sidebar-main {
+  height: calc(100% - 55px);
+}
+
+.el-header {
+  padding: 0px;
+}
+
+
+.first-row {
+  height: 100%;
+}
+
+.second-row {
+  height: 40%;
+}
+
+.padding-top-10 {
+  padding-top: 10px !important;
+}
+
+.padding-top-5 {
+  padding-top: 5px !important;
+}
+
+.padding-right-10 {
+  padding-right: 10px !important;
+}
+
+.padding-right-5 {
+  padding-right: 5px !important;
+}
+
+.padding-bottom-10 {
+  padding-bottom: 10px !important;
+}
+
+.padding-bottom-5 {
+  padding-bottom: 5px !important;
+}
+
+.padding-left-10 {
+  padding-left: 10px !important;
+}
+
+.padding-left-5 {
+  padding-left: 5px !important;
+}
+
+.full-height {
+  height: 100%;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.card-box {
+  border-radius: 5px;
+  background-color: #f0f0f0;
+}
+
+.pannel-title {
+  background-color: #007196;
+  color: white;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.title-heading {
+  height: 30px;
+  padding: 8px 2px 2px 10px;
+  margin-bottom: unset;
+}
+
+.h6, h6 {
+  font-size: 1rem;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  margin-bottom: .5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: .5rem;
+}
+
+
+
+.body-container {
+  font-size: 0.85em;
+}
+
+.body-container {
+  overflow: auto;
+}
+
+.el-col-24 .pannel-title, .el-col-24 .title-heading {
+  box-sizing: border-box;
+}
+
+.about-div .el-dialog__header {
+  background-color: rgb(60, 126, 165)
+}
+
+.about-div .el-dialog__title {
+  color: white;
+}
+
+.el-select-dropdown__item.optGroup {
+  font-weight: bold;
+}
+
+.el-form--inline .el-form-item {
+  margin-right: 0px;
+}
+
+.submit-btn .el-form-item__content {
+  width: 100%;
+}
+
+.time-layer-ledgend-div {
+  width: auto;
+  height: auto;
+}
+.layerCollection .LayerDiv.withOpacSlider {
+    margin-bottom: 18px;
+}

@@ -1,0 +1,59 @@
+{
+  "name": "vhiwatbt",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "shx rm -rf ../public/ && shx mkdir ../public && vue-cli-service build && shx cp -r ../public/build/static/hiwatbt/. ../public/ && shx cp src/assets/icon.gif ../public/images/icon.gif",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "@turf/area": "^6.5.0",
+    "@turf/turf": "^6.5.0",
+    "animate.css": "^4.1.1",
+    "axios": "^0.21.1",
+    "core-js": "^3.6.5",
+    "element-plus": "*",
+    "highcharts": "^9.2.2",
+    "ol": "^6.6.1",
+    "ol-ext": "^3.2.4",
+    "ol-plus": "^1.1.8",
+    "tiny-emitter": "^2.1.0",
+    "vue": "^3.0.0",
+    "vuex": "^4.0.0-0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "babel-eslint": "^10.1.0",
+    "clean-webpack-plugin": "*",
+    "eslint": "^6.7.2",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-vue": "^7.0.0",
+    "node-sass": "^4.12.0",
+    "prettier": "^2.2.1",
+    "sass-loader": "^8.0.2",
+    "shx": "^0.3.3",
+    "vue-svg-loader": "^0.16.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended",
+      "@vue/prettier"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  }
+}
